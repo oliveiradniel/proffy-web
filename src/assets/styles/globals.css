@@ -25,35 +25,6 @@
   --font-poppins: 'Poppins', sans-serif;
 }
 
-:root {
-  font-size: 60%;
-}
-
 body {
   background-color: var(--color-background);
-}
-
-html,
-body,
-#root {
-  height: 100vh;
-}
-
-#root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-body,
-input,
-button,
-textarea {
-  font: 500 1.6rem var(--font-poppins);
-}
-
-@media (min-height: 700px) {
-  :root {
-    font-size: 62.5%;
-  }
 }
